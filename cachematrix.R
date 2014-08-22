@@ -22,7 +22,7 @@ makeCacheMatrix <- function(x = matrix()) {
 
 ## This function returns the inverse of the matrix: if it has already
 ## been calculated and it is the same matrix, 
-## it gets the inverse from the cache; otherwise it
+## runifit gets the inverse from the cache; otherwise it
 ## computes, with the function solve, the inverse
 
 cacheSolve <- function(x, ...) {
